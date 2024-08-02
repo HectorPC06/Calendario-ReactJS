@@ -1,0 +1,58 @@
+.calendar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .days, .body {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .days{
+    background-color: cornflowerblue;
+  }
+  
+  .col {
+    width: 14.28%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .cell {
+    border: 1px solid #ddd;
+    min-height: 80px;
+    position: relative;
+  }
+  
+  .cell-header {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .event {
+    background: #007bff;
+    color: #fff;
+    padding: 2px 4px;
+    border-radius: 3px;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+
+  .current-date {
+    background-color: #ffc107; /* Color de fondo para la fecha actual */
+    font-size: 20px; /* Opcional: Texto en negrita para la fecha actual */
+  }
+
+  .col.col-start, .col.col-end {
+    cursor: pointer;
+}
+  
+

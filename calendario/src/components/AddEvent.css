@@ -1,0 +1,5 @@
+.modal-content {
+    width: 100%;
+    max-width: 500px; /* Ajuste el ancho máximo del modal */
+    margin: 0 auto;
+  }

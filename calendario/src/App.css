@@ -1,0 +1,51 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+button {
+  margin: 20px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.calendar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.days, .body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  width: 14.28%;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.cell {
+  border: 1px solid #ddd;
+  min-height: 80px;
+}
+
+.event {
+  background: #007bff;
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+  margin-top: 5px;
+}
+
+.bg-gray-100 {
+  background-color: #f5f5f5;
+}
